@@ -78,14 +78,31 @@
             align-items: center;
             justify-content: space-evenly;
             flex-wrap: wrap;
-            margin-top: 0.7cm;
+            margin-top: 0.7rem;
             font-family: 'Quicksand', sans-serif;
         }
 
 
+        h4 {
+            background-color: gold;
+            color: black;
+            border-radius: 1rem;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            margin-top: 0.3rem;
+            margin-bottom: 0.3rem;
+            margin-left: 0.5rem;
+            margin-right: 0.5rem;
+            display: flex;
+            align-items: center;
+        }
+
+
         .margin6 {
-            margin-left: 0.6cm;
-            margin-right: 0.6cm;
+            margin-left: 0.6rem;
+            margin-right: 0.6rem;
         }
 
         .link {
@@ -98,14 +115,13 @@
         .gold-skill {
             background-color: gold;
             color: black;
-            border-radius: 0.2cm;
-            padding-top: 0.1cm;
-            padding-bottom: 0.1cm;
-            padding-left: 0.3cm;
-            padding-right: 0.3cm;
-            margin-top: 0.3cm;
-            margin-left: 0.04cm;
-            margin-right: 0.04cm;
+            border-radius: 0.5rem;
+            padding-top: 0.2rem;
+            padding-bottom: 0.2rem;
+            padding-left: 0.4rem;
+            padding-right: 0.4rem;
+            margin-top: 0.6rem;
+            margin-left: 0.1rem;
             display: flex;
             align-items: center;
         }
@@ -113,37 +129,35 @@
         .silver-skill {
             background-color: silver;
             color: black;
-            border-radius: 0.2cm;
-            padding-top: 0.1cm;
-            padding-bottom: 0.1cm;
-            padding-left: 0.2cm;
-            padding-right: 0.2cm;
-            margin-top: 0.3cm;
-            margin-left: 0.05cm;
+            border-radius: 0.5rem;
+            padding-top: 0.2rem;
+            padding-bottom: 0.2rem;
+            padding-left: 0.4rem;
+            padding-right: 0.4rem;
+            margin-top: 0.6rem;
+            margin-left: 0.1rem;
             display: flex;
             align-items: center;
         }
 
         .a4 {
-            width: 21cm;
-            height: 29.7cm;
+            max-width: 100rem;
             margin-left: auto;
             margin-right: auto;
             background-color: rgb(255, 255, 255);
-            display: flex;
-            box-shadow: 0.1cm 0.1cm 0.5cm rgb(141, 141, 141);
-            margin-bottom: 0.5cm;
+            box-shadow: 0.1rem 0.1rem 0.5rem rgb(141, 141, 141);
+            margin-bottom: 0.5rem;
         }
 
         .prof-proj {
-            font-size: 0.55cm;
+            font-size: 0.55rem;
         }
 
         .prof-proj-sep {
-            border-left: 0.1cm solid rgb(48, 48, 48);
-            margin-left: 0.3cm;
-            margin-right: 0.3cm;
-            height: 1.5cm;
+            border-left: 0.1rem solid rgb(48, 48, 48);
+            margin-left: 0.3rem;
+            margin-right: 0.3rem;
+            height: 1.5rem;
         }
 
         .prof-proj-desc {
@@ -156,16 +170,16 @@
 <body style="background-color: rgb(233, 233, 233); ">
     <div class="a4 txt">
 
-        <div style="width: 60%;">
+        <div>
             <div
-                style="margin-top: 0.8cm; margin-bottom: 0.5cm; margin-left: 0.6cm; margin-right: 0.6cm; padding: 0.5cm;">
+                style="margin-top: 0.8rem; margin-bottom: 0.5rem; margin-left: 0.6rem; margin-right: 0.6rem; padding: 3rem;">
 
                 <div>
-                    <h1 style="font-size: 1.3cm; text-align: left;">
+                    <h1 style="font-size: 4rem; text-align: center;">
                         Hasindu Lanka
                     </h1>
 
-                    <p style="text-align: justify;">
+                    <p style="text-align: center;">
                         Self-taught developer with a passion for software engineering. Diligent of actively exploring
                         and
                         learning new technology to solve real-world problems.
@@ -173,11 +187,13 @@
                 </div>
 
 
+                <h1 style="text-align: center;">
+                    This is my personal website. I will complete this in the near future. Till then,
+                </h1>
 
-                <div>
-                    <h1>
-                        This is my personal website. I will complete this in the near future. Till then,
-                    </h1>
+                <div
+                    style="display: flex; flex-wrap: wrap; align-items: center; margin-left: auto; margin-right: auto; justify-content: center; ">
+
                     <h4>
                         Software developer
                     </h4>
@@ -186,6 +202,9 @@
                     </h4>
                     <h4>
                         Bitzquad
+                    </h4>
+                    <h4>
+                        Hasindu Lanka
                     </h4>
                     <h4>
                         Bitzquad Software
@@ -214,17 +233,26 @@
 
         </div>
 
-        <div style="width: 40%; background-color: rgb(48, 48, 48); color:white; display: flex; flex-flow: column; ">
-            <div style="margin-top: 2cm;" class="margin6">
-            </div>
+        <div style="background-color: rgb(48, 48, 48);
+            color:white; display:
+            flex; flex-flow: column; 
+            padding-top: 4rem; padding-bottom: 4rem;
+            padding-left: 4rem; padding-right: 4rem;
+             ">
 
             <hr style="width: 80%;">
 
-            <div style=" margin-top: 0.1cm; " class="margin6">
+            <div>
                 <h2 style="text-align: center;">
                     Tech skills
                 </h2>
-                <div class="skill-set">
+                <div style="display:flex; flex-flow: row;
+                            justify-content: space-evenly;
+                            flex-wrap:  wrap;
+                            grid-gap: 0.5rem;
+                            justify-content: space-evenly;
+                            margin-top: 0.7rem;
+                            font-family: 'Quicksand', sans-serif;">
 
                     <span class="gold-skill">
                         C#
@@ -246,9 +274,6 @@
                         Shell
                     </span>
 
-                </div>
-
-                <div class="skill-set">
 
                     <span class="gold-skill">
                         ASP .NET
@@ -269,11 +294,6 @@
                     <span class="silver-skill">
                         MAUI
                     </span>
-
-                </div>
-
-                <div class="skill-set">
-
                     <span class="gold-skill">
                         Git
                     </span>
@@ -284,9 +304,6 @@
                         Test automation
                     </span>
 
-                </div>
-
-                <div class="skill-set">
 
                     <span class="gold-skill">
                         MongoDB
@@ -308,43 +325,40 @@
                         Pub/Sub
                     </span>
 
-                </div>
-
-                <div class="skill-set">
 
                     <span class="gold-skill">
                         Docker
                     </span>
                     <span class="silver-skill">
-                        <svg style="width: 0.5cm; height: 0.5cm; margin-right: 0.1cm;" version="2.0">
+                        <svg style="width: 1rem; height: 1rem; margin-right: 0.1rem;" version="2.0">
                             <use href="#aws" />
                         </svg>
                         EC2
                     </span>
                     <span class="silver-skill">
-                        <svg style="width: 0.5cm; height: 0.5cm; margin-right: 0.1cm;" version="2.0">
+                        <svg style="width: 1rem; height: 1rem; margin-right: 0.1rem;" version="2.0">
                             <use href="#aws" />
                         </svg>
                         Lambda
                     </span>
 
                     <span class="gold-skill">
-                        <svg style="width: 0.5cm; height: 0.5cm; margin-right: 0.1cm;" version="2.0">
+                        <svg style="width: 1rem; height: 1rem; margin-right: 0.1rem;" version="2.0">
                             <use href="#gcloud" />
                         </svg> Cloud Run
                     </span>
                     <span class="silver-skill">
-                        <svg style="width: 0.5cm; height: 0.5cm; margin-right: 0.1cm;" version="2.0">
+                        <svg style="width: 1rem; height: 1rem; margin-right: 0.1rem;" version="2.0">
                             <use href="#gcloud" />
                         </svg> Functions
                     </span>
                     <span class="silver-skill">
-                        <svg style="width: 0.5cm; height: 0.5cm; margin-right: 0.1cm;" version="2.0">
+                        <svg style="width: 1rem; height: 1rem; margin-right: 0.1rem;" version="2.0">
                             <use href="#gcloud" />
                         </svg> Compute
                     </span>
                     <span class="silver-skill">
-                        <svg style="width: 0.5cm; height: 0.5cm; margin-right: 0.1cm;" version="2.0">
+                        <svg style="width: 1rem; height: 1rem; margin-right: 0.1rem;" version="2.0">
                             <use href="#gcloud" />
                         </svg> SSO
                     </span>
@@ -358,11 +372,6 @@
                     <span class="silver-skill">
                         Vercel
                     </span>
-
-                </div>
-
-
-                <div class="skill-set">
 
 
                     <span class="gold-skill">
@@ -380,10 +389,6 @@
                     <span class="silver-skill">
                         WebRTC
                     </span>
-                </div>
-
-
-                <div class="skill-set">
 
                     <span class="silver-skill">
                         ML .NET
@@ -393,50 +398,61 @@
                     </span>
 
                 </div>
+
             </div>
 
-            <hr style="width: 80%; margin-top: 1cm; margin-bottom: 1cm; ">
+            <hr style="width: 80%; margin-top: 2rem; margin-bottom: 1rem; ">
 
-            <div class="margin6">
+            <div style="display:flex; flex-flow: row;
+            justify-content: space-evenly;
+            flex-wrap:  wrap;
+            grid-gap: 0.5rem;
+            justify-content: space-evenly;
+            margin-top: 0.7rem;
+            font-family: 'Quicksand', sans-serif;">
                 <div>
                     <div class="flex-row">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="width: 0.8cm;"
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="width: 1.6rem;"
                             fill="#000000">
                             <path d="M0 0h24v24H0V0z" fill="none" />
                             <path
                                 d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-.4 4.25l-7.07 4.42c-.32.2-.74.2-1.06 0L4.4 8.25c-.25-.16-.4-.43-.4-.72 0-.67.73-1.07 1.3-.72L12 11l6.7-4.19c.57-.35 1.3.05 1.3.72 0 .29-.15.56-.4.72z" />
                         </svg>
-                        <span style="margin-left: 0.2cm;" class="link"> hasindu@bitzquad.com </span>
+                        <span style="margin-left: 0.4rem;" class="link"> hasindu@hasindu.lk </span>
                     </div>
 
                 </div>
-                <div style="margin-top: 0.2cm;">
+                <div style="margin-top: 0.4rem;">
                     <div class="flex-row">
-                        <svg style="width: 0.8cm; height: 0.8cm" version="2.0">
+                        <svg style="width: 1.6rem; height: 1.6rem" version="2.0">
                             <use href="#github" />
                         </svg>
-                        <span style="margin-left: 0.2cm;"><a class="link" href="https://github.com/hasindulanka">
+                        <span style="margin-left: 0.4rem;"><a class="link" href="https://github.com/hasindulanka">
                                 @HasinduLanka</a>
                         </span>
                     </div>
 
                 </div>
-                <div style="margin-top: 0.2cm;">
+                <div style="margin-top: 0.4rem;">
                     <div class="flex-row">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="width: 0.8cm">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="width: 1.6rem">
                             <path
                                 d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
                         </svg>
-                        <span style="margin-left: 0.2cm;"><a class="link"
+                        <span style="margin-left: 0.4rem;"><a class="link"
                                 href="https://www.linkedin.com/in/hasindulanka/">
                                 @HasinduLanka</a>
                         </span>
                     </div>
-
                 </div>
-            </div>
 
+            </div>
         </div>
+
+
+
+
+    </div>
     </div>
 
     <div class="txt a4">
