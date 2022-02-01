@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /cdn-cgi/
+Sitemap: https://hasindu.lk/sitemap.xml
