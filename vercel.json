@@ -1,0 +1,17 @@
+{
+    "cleanUrls": true,
+    "rewrites": [
+        {
+            "source": "/about",
+            "destination": "/hasindu-lanka"
+        },
+        {
+            "source": "/gh/:user/:repo*",
+            "destination": "https://github.com/:user/:repo*"
+        },
+        {
+            "source": "/gu/:match*",
+            "destination": "https://github.com/:match*"
+        }
+    ]
+}
